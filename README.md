@@ -9,7 +9,7 @@ A 54 shade color palette for branded designs. It includes 9 lighter or darker sh
 
 ## Available color variables
 
-### Primary color palette
+### Primary color shades
 `$primary`
 `$primary_light`
 `$primary_lighter`
@@ -20,7 +20,7 @@ A 54 shade color palette for branded designs. It includes 9 lighter or darker sh
 `$primary_line`
 `$primary_background`
 
-### Secondary color palette
+### Secondary color shades
 `$secondary`
 `$secondary_light`
 `$secondary_lighter`
@@ -31,7 +31,7 @@ A 54 shade color palette for branded designs. It includes 9 lighter or darker sh
 `$secondary_lines`
 `$secondary_background`
 
-### Amber color palette
+### Amber color shades
 `$amber`
 `$amber_light`
 `$amber_lighter`
@@ -42,7 +42,7 @@ A 54 shade color palette for branded designs. It includes 9 lighter or darker sh
 `$amber_line`
 `$amber_background`
 
-### Red color palette
+### Red color shades
 `$red`
 `$red_light`
 `$red_lighter`
@@ -53,7 +53,7 @@ A 54 shade color palette for branded designs. It includes 9 lighter or darker sh
 `$red_line`
 `$red_background`
 
-### Green color palette
+### Green color shades
 `$green`
 `$green_light`
 `$green_lighter`
@@ -64,7 +64,7 @@ A 54 shade color palette for branded designs. It includes 9 lighter or darker sh
 `$green_line`
 `$green_background`
 
-### Neutral color palette
+### Neutral color shades
 `$neutral`
 `$neutral_light`
 `$neutral_lighter`
