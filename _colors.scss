@@ -1,0 +1,71 @@
+$primary_color: #26abe2;
+$secondary_color: #ee960a;
+
+$deep: 20%;
+$deeper: 40%;
+$deepest: 60%;
+$background: 80%;
+$lines: 90%;
+
+
+$primary: $primary_color;
+$primary_light: mix(white, $primary, $deep);
+$primary_lighter: mix(white, $primary, $deeper);
+$primary_lightest: mix(white, $primary, $deepest);
+$primary_dark: mix(black, $primary, $deep);
+$primary_darker: mix(black, $primary, $deeper);
+$primary_darkest: mix(black, $primary, $deepest);
+$primary_line: mix(white, $primary, $lines);
+$primary_background: mix(white, $primary, $background);
+
+
+$secondary: $secondary_color;
+$secondary_light: mix(white, $secondary, $deep);
+$secondary_lighter: mix(white, $secondary, $deeper);
+$secondary_lightest: mix(white, $secondary, $deepest);
+$secondary_dark: mix(black, $secondary, $deep);
+$secondary_darker: mix(black, $secondary, $deeper);
+$secondary_darkest: mix(black, $secondary, $deepest);
+$secondary_line: mix(black, $secondary, $lines);
+$secondary_background: mix(black, $secondary, $background);
+
+$amber: #FFBF00;
+$amber_light: mix(white, $amber, $deep);
+$amber_lighter: mix(white, $amber, $deeper);
+$amber_lightest: mix(white, $amber, $deepest);
+$amber_dark: mix(black, $amber, $deep);
+$amber_darker: mix(black, $amber, $deeper);
+$amber_darkest: mix(black, $amber, $deepest);
+$amber_line: mix(white, $amber, $lines);
+$amber_background: mix(white, $amber, $background);
+
+$green: green;
+$green_light: mix(white, $green, $deep);
+$green_lighter: mix(white, $green, $deeper);
+$green_lightest: mix(white, $green, $deepest);
+$green_dark: mix(black, $green, $deep);
+$green_darker: mix(black, $green, $deeper);
+$green_darkest: mix(black, $green, $deepest);
+$green_line: mix(white, $green, $lines);
+$green_background: mix(white, $green, $background);
+
+$red: maroon;
+$red_light: mix(white, $red, $deep);
+$red_lighter: mix(white, $red, $deeper);
+$red_lightest: mix(white, $red, $deepest);
+$red_dark: mix(black, $red, $deep);
+$red_darker: mix(black, $red, $deeper);
+$red_darkest: mix(black, $red, $deepest);
+$red_line: mix(white, $red, $lines);
+$red_background: mix(white, $red, $background);
+
+$neutral: grey;
+$neutral_light: mix(white, $neutral, $deep);
+$neutral_lighter: mix(white, $neutral, $deeper);
+$neutral_lightest: mix(white, $neutral, $deepest);
+$neutral_dark: mix(black, $neutral, $deep);
+$neutral_darker: mix(black, $neutral, $deeper);
+$neutral_darkest: mix(black, $neutral, $deepest);
+$neutral_line: mix(white, $neutral, $lines);
+$neutral_background: mix(white, $neutral, $background);
+
