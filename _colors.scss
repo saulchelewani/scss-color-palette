@@ -1,15 +1,13 @@
-$primary: 90; // set to brand color
-$secondary: 270; // set to brand color
+$primary: 90; // set to brand primary color
+$secondary: 270; // set to brand secondary color
 $red: 0;
 $amber: 60;
 $green: 165;
 
-$h: 170;
-$s: 50%;
-$l: 50%;
+$lightness: 50%;
 
 @function lighten($depth) {
-  @return $l + $depth;
+  @return $lightness + $depth;
 }
 
 $foreground: lighten(-40);
@@ -23,7 +21,7 @@ $background: lighten(40);
 
 
 @function spin($hue, $depth: 50) {
-  @return hsl($hue, $s, $depth);
+  @return hsl($hue, 50%, $depth);
 }
 
 @function neutral($depth: 50) {
