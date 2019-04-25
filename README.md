@@ -1,76 +1,38 @@
 # SCSS Color Palette
-A 54 shade color palette for branded designs. It includes 9 lighter or darker shades of your prefered `primary` color, `secondary` color, `amber`, `red`, `green` and `grey`
+A 54 shade color palette for branded designs. It uses hsl values to create 9 lighter or darker shades of your 
+preferred 
+`primary` 
+color, `secondary` color, `amber`, `red`, `green` and `grey`/`neutral`
 
 ## How to use
 
-* Update `$primary_color` and `$secondary_color` to your prefered colors
-* Import `_colors.scss` to your base `scss` file: `@import "colors"`
-* In your `scss` file you can use `color: $primary` or `background-color: $amber_background` etc
+* Update `$primary` and `$secondary` to your preferred colors.
+* Import `_colors.scss` to your base `scss` file: `@import "colors"`.
+* In your `scss` file you can use `color: neutral($foreground)` or `background-color: spin($primary, $background)` etc.
 
-## Available color variables
+## Available Color Variables
 
-### Primary color shades
-`$primary`
-`$primary_light`
-`$primary_lighter`
-`$primary_lightest`
-`$primary_dark`
-`$primary_darker`
-`$primary_darkest`
-`$primary_line`
-`$primary_background`
+### Neutral/Grey Color Shades
+Choose your shade by calling `neutral($shade)`
+#### Available Neutral Shades
+You can pass any of the following variables for neutral color shades <br />
+`foreground`, `darkest`, `darker`, `dark`, `light`, `lighter`, `lightest`, `background`. <br />
+#### Example
+`background-color: neutral($light);` <br />
+For base color, use `neutral()` without an argument
 
-### Secondary color shades
-`$secondary`
-`$secondary_light`
-`$secondary_lighter`
-`$secondary_lightest`
-`$secondary_dark`
-`$secondary_darker`
-`$secondary_darkest`
-`$secondary_lines`
-`$secondary_background`
 
-### Amber color shades
-`$amber`
-`$amber_light`
-`$amber_lighter`
-`$amber_lightest`
-`$amber_dark`
-`$amber_darker`
-`$amber_darkest`
-`$amber_line`
-`$amber_background`
+### Various Color Shades
+Choose your color by spinning the hue wheel and selecting the shade of that color: `spin($baseColor, $shade)`
+#### Available Base Colors
+You can pass any of the following variables as `baseColor`:<br />
+`primary`, `secondary`, `amber`, `green`, `red` <br />
 
-### Red color shades
-`$red`
-`$red_light`
-`$red_lighter`
-`$red_lightest`
-`$red_dark`
-`$red_darker`
-`$red_darkest`
-`$red_line`
-`$red_background`
+#### Available Shades
+You can pass any of the following variables for various color `shade`: <br />
+`foreground`, `darkest`, `darker`, `dark`, `light`, `lighter`, `lightest`. <br />
+#### Example
+`color: spin($red, $darker);` <br />
+For base color use `spin($red)` without the second argument.
 
-### Green color shades
-`$green`
-`$green_light`
-`$green_lighter`
-`$green_lightest`
-`$green_dark`
-`$green_darker`
-`$green_darkest`
-`$green_line`
-`$green_background`
 
-### Neutral color shades
-`$neutral`
-`$neutral_light`
-`$neutral_lighter`
-`$neutral_lightest`
-`$neutral_dark`
-`$neutral_darker`
-`$neutral_darkest`
-`$neutral_line`
-`$neutral_background`
