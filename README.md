@@ -6,7 +6,7 @@ color, `secondary` color, `amber`, `red`, `green` and `grey`/`neutral`
 
 ## How to use
 
-* Update `$primary` and `$secondary` to your preferred colors.
+* Update `$primary` and `$secondary` to your preferred hue values.
 * Import `_colors.scss` to your base `scss` file: `@import "colors"`.
 * In your `scss` file you can use `color: neutral($foreground)` or `background-color: spin($primary, $background)` etc.
 
