@@ -30,7 +30,7 @@ You can pass any of the following variables as `baseColor`:<br />
 
 #### Available Shades
 You can pass any of the following variables for various color `shade`: <br />
-`foreground`, `darkest`, `darker`, `dark`, `light`, `lighter`, `lightest`. <br />
+`foreground`, `darkest`, `darker`, `dark`, `light`, `lighter`, `lightest`, `background`. <br />
 #### Example
 `color: spin($red, $darker);` <br />
 For base color use `spin($red)` without the second argument.
